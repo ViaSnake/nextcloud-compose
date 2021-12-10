@@ -8,7 +8,7 @@ services:
     ports:
       - '80:80'
     volumes:
-      - "/mnt/hdd/nextcloud:/var/www/html"
+      - "/mnt/hdd/nextcloud:/var/www/html/data"
     environment:
       - MYSQL_HOST=${MYSQL_HOST}
       - MYSQL_DATABASE=${MYSQL_DATABASE}
